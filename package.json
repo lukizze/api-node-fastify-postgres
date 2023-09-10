@@ -1,0 +1,35 @@
+{
+  "name": "api-node-fastify-postgres",
+  "version": "1.0.0",
+  "description": "API NodeJS em Fastify com banco de dados Postgres",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --no-warnings src/server.js",
+    "install": "node src/models/table.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukizze/api-node-fastify-postgres.git"
+  },
+  "keywords": [
+    "API",
+    "NodeJS",
+    "Fastify",
+    "Postgres"
+  ],
+  "author": "Luiz Fellipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukizze/api-node-fastify-postgres/issues"
+  },
+  "homepage": "https://github.com/lukizze/api-node-fastify-postgres#readme",
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
